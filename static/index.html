@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RTSP_DEMO</title>
+    <script type="text/javascript" src="vxgplayer-1.8.40.min.js">
+    </script>
+    <link href="vxgplayer-1.8.40.min.css" rel="stylesheet" />
+    <style>
+        .rtsp-input {
+            width: 600px;
+            height: 50px;
+            font-size: 14px;
+        }
+
+        .rtsp-btn {
+            margin-top: 10px;
+            font-size: 14px;
+            width: 100px;
+            height: 40px;
+            line-height: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="vxgplayer" id="vxg_media_player1" url="rtsp://admin:fubang119@172.16.12.195:1554/h264/ch1/main" autostart controls
+        avsync nmf-src="pnacl/Release/media_player.nmf" nmf-path="media_player.nmf"></div>
+
+    <div>
+        <input class="rtsp-input" id="url_input" type="text" width="200%" value="rtsp://admin:fubang119@172.16.12.195:1554/h264/ch1/main">
+    </div>
+
+    <div>
+        <button class="rtsp-btn" onclick="change_rtsp()">设置地址</button>
+    </div>
+
+</body>
+
+<script type="text/javascript">
+    function change_rtsp() {
+        vxgplayer('vxg_media_player1').stop();
+        vxgplayer('vxg_media_player1').src(document.getElementById('url_input').value);
+        vxgplayer('vxg_media_player1').play();
+    }
+</script>
+
+</html>

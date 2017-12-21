@@ -1,0 +1,9 @@
+{
+  "name": "rtsp_demo",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  }
+}
