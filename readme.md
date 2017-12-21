@@ -2,11 +2,13 @@
 ```
 本demo依赖chrome以及VXG Media Player插件
 
-1.安装扩展程序到谷歌浏览器，直接拖动.crx文件安装即可
-2.插件下载地址 https://www.videoexpertsgroup.com/vxg-chrome-plugin/  可能需要翻墙
-2.插件github地址 https://github.com/VideoExpertsGroup/VXG.Chrome-RTSP-Player
-3.运行 node index.js
-4.打开 http://localhost:3078/index
+1.安装扩展程序到谷歌浏览器，直接拖动.crx文件安装即可 这种方法失效，该程序只能通过谷歌应用商店安装
+2.插件官网 https://www.videoexpertsgroup.com/vxg-chrome-plugin/  可能需要翻墙
+3.插件下载地址 https://chrome.google.com/webstore/detail/vxg-media-player/hncknjnnbahamgpjoafdebabmoamcnni
+4.插件github地址 https://github.com/VideoExpertsGroup/VXG.Chrome-RTSP-Player
+5.运行 npm install
+6.运行 node index.js
+7.打开 http://localhost:3078/index
 
 RTSP地址说明
 海康：
