@@ -2,7 +2,8 @@
 ```
 本demo依赖chrome以及VXG Media Player插件
 
-1.安装扩展程序到谷歌浏览器，直接拖动.crx文件安装即可 这种方法失效，该程序只能通过谷歌应用商店安装
+1.安装扩展程序到谷歌浏览器，直接拖动.crx文件安装即可 这种方法失效，提示程序只能通过谷歌应用商店安装
+    将.crx文件重命名为.rar后缀的文件，解压。进入谷歌浏览器扩展程序，勾选开发模式，点击加载已解压的扩展程序选择刚刚解压的文件夹。便能成功安装。
 2.插件官网 https://www.videoexpertsgroup.com/vxg-chrome-plugin/  可能需要翻墙
 3.插件下载地址 https://chrome.google.com/webstore/detail/vxg-media-player/hncknjnnbahamgpjoafdebabmoamcnni
 4.插件github地址 https://github.com/VideoExpertsGroup/VXG.Chrome-RTSP-Player
