@@ -2,14 +2,16 @@
 ```
 本demo依赖chrome以及VXG Media Player插件
 
-1.安装扩展程序到谷歌浏览器，直接拖动.crx文件安装即可 这种方法失效，提示程序只能通过谷歌应用商店安装
-    将.crx文件重命名为.rar后缀的文件，解压。进入谷歌浏览器扩展程序，勾选开发模式，点击加载已解压的扩展程序选择刚刚解压的文件夹。便能成功安装。
-2.插件官网 https://www.videoexpertsgroup.com/vxg-chrome-plugin/  可能需要翻墙
-3.插件下载地址 https://chrome.google.com/webstore/detail/vxg-media-player/hncknjnnbahamgpjoafdebabmoamcnni
-4.插件github地址 https://github.com/VideoExpertsGroup/VXG.Chrome-RTSP-Player
-5.运行 npm install
-6.运行 node index.js
-7.打开 http://localhost:3078/index
+1.安装扩展程序到谷歌浏览器，直接拖动.crx文件安装即可 这种方法失效，提示程序只能通过谷歌应用商店安装,这种方式安装失败
+
+2.解压VXG-Media-Player_v1.8.42.rar文件。进入谷歌浏览器扩展程序，勾选开发模式，点击加载已解压的扩展程序选择刚刚解压的文件夹。便能成功安装。
+
+3.插件官网 https://www.videoexpertsgroup.com/vxg-chrome-plugin/  可能需要翻墙
+4.插件下载地址 https://chrome.google.com/webstore/detail/vxg-media-player/hncknjnnbahamgpjoafdebabmoamcnni
+5.插件github地址 https://github.com/VideoExpertsGroup/VXG.Chrome-RTSP-Player
+6.运行 npm install
+7.运行 node index.js
+8.打开 http://localhost:3078/index
 
 RTSP地址说明
 海康：
